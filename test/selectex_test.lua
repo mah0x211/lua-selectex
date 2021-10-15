@@ -13,7 +13,7 @@ end
 local function test_head()
     local value = {'foo', 'bar', 'baz', 'qux', 'quux'}
 
-    -- test that return the first 1 to N arguments
+    -- test that returns the variadic arguments from the first to the index-th.
     for _, v in ipairs({
         {
             index = -1,
@@ -49,7 +49,7 @@ end
 local function test_tail()
     local value = {'foo', 'bar', 'baz', 'qux', 'quux'}
 
-    -- test that return the first 1 to N arguments
+    -- test that returns the variadic arguments from the index-th to the last
     for _, v in ipairs({
         {
             index = -1,
