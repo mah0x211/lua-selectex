@@ -2,7 +2,7 @@ rockspec_format = "3.0"
 package = "selectex"
 version = "0.1.0-1"
 source = {
-   url = "git+ssh://git@github.com/mah0x211/lua-selectex.git",
+   url = "git+https://github.com/mah0x211/lua-selectex.git",
    tag = "v0.1.0"
 }
 description = {
@@ -10,6 +10,9 @@ description = {
    homepage = "https://github.com/mah0x211/lua-selectex",
    license = "MIT",
    maintainer = "Masatoshi Fukunaga"
+}
+dependencies = {
+    "lua >= 5.1",
 }
 build = {
    type = "builtin",
