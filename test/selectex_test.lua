@@ -1,7 +1,6 @@
-local format = string.format
 local find = string.find
 local unpack = unpack or table.unpack
-local assert = require('assertex')
+local assert = require('assert')
 local selectex = require('selectex')
 
 local function test_len()

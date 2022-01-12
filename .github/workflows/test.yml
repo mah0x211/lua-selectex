@@ -48,7 +48,7 @@ jobs:
     -
       name: Install Tools
       run: |
-        luarocks install assertex
+        luarocks install assert
     -
       name: Install
       run: |
